@@ -151,7 +151,7 @@
                       <xsl:attribute name="href">
                         #<xsl:value-of select="@name"/>
                       </xsl:attribute>
-                      <xsl:value-of select="@desc"/>(<xsl:value-of select="@name"/>)
+                      <xsl:value-of select="@name"/>(<xsl:value-of select="@desc"/>)
                     </a>
                   </td>
                   <td>
@@ -190,7 +190,7 @@
               </div>
               <div id="category_title">
                 Test Feature:
-                <xsl:value-of select="@desc"/>(<xsl:value-of select="@name"/>)
+                <xsl:value-of select="@name"/>(<xsl:value-of select="@desc"/>)
                 <a><xsl:attribute name="name"><xsl:value-of select="@name"/></xsl:attribute></a>
               </div>
               <table>
