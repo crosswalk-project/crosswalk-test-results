@@ -4,10 +4,10 @@
   <xsl:template match="/">
     <html>
       <STYLE type="text/css">
-        @import "../../../../style/reports.css";
+        @import "../../../../../../style/reports.css";
       </STYLE>
       <head>
-        <script type="text/javascript" src="../../../../style/jquery.min.js"/>
+        <script type="text/javascript" src="../../../../../../style/jquery.min.js"/>
       </head>
       <body>
         <div id="testcasepage">
@@ -247,9 +247,9 @@
           </div>
         </div>
         <div id="goTopBtn">
-          <img border="0" src="../../../../style/back_top.png"/>
+          <img border="0" src="../../../../../../style/back_top.png"/>
         </div>
-        <script type="text/javascript" src="../../../../style/reports.js"/>
+        <script type="text/javascript" src="../../../../../../style/reports.js"/>
         <script language="javascript" type="text/javascript">
           $(document).ready(function(){
             goTopEx();
